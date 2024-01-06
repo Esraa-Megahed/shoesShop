@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <title>E-commerce product page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <nav>
+        <h1 class="logo">sneakers</h1>
+        <ul>
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div class="cart-container">
+          <span class="cart-counter">0</span>
+          <div class="cart-section">
+            <img src="images/icon-cart.svg" alt="" class="cart-icon" />
+            <img src="images/image-avatar.png" alt="profil-pic" />
+          </div>
+        </div>
+      </nav>
+      <div class="box-cart box-cart-display">
+        <h3>Cart</h3>
+        <div class="cart-content">
+          <div class="full-cart">
+            <img src="images/image-product-1-thumbnail.jpg" alt="bascket" />
+            <div>
+              <p class="product-title">Fall Limited Edition Sneakers</p>
+              <span>$</span>
+              <span class="item-price">125.00 </span>
+              <span>x</span>
+              <span class="quantity"> 3</span>
+              <span>=$</span>
+              <span class="total-price">125.00</span>
+            </div>
+            <iconify-icon
+              class="basket-cart"
+              icon="ri:delete-bin-line"
+            ></iconify-icon>
+            <button class="checkout">Checkout</button>
+          </div>
+          <h4 class="empty-cart">Your cart is empty</h4>
+        </div>
+      </div>
+      <aside>
+        <div class="left-side">
+          <div class="main-pic">
+            <img src="images/image-product-1.jpg" alt="product-pic" />
+          </div>
+          <div class="single-pic">
+            <span class="selected-pic-border">
+              <img
+                class="selected-pic"
+                src="images/image-product-1-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+            <span>
+              <img
+                src="images/image-product-2-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+            <span>
+              <img
+                src="images/image-product-3-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+            <span>
+              <img
+                src="images/image-product-4-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="right-side">
+          <h6>Sneaker Company</h6>
+          <h2>Fall Limited Edition Sneakers</h2>
+          <p class="description">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="especial-price">
+            <span>$125.00 </span>
+            <span class="discount">50%</span>
+          </div>
+          <h6 class="main-price">$250.00</h6>
+          <div class="btn-container">
+            <p class="alert">your must select one piece at least !</p>
+            <div class="counter-container">
+              <iconify-icon class="decrease" icon="typcn:minus"></iconify-icon>
+              <span class="set-counter">0</span>
+              <iconify-icon
+                class="increase"
+                icon="mingcute:plus-fill"
+              ></iconify-icon>
+            </div>
+            <div>
+              <button class="add-btn-cart">
+                <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="prueba">
+          <p class="close-icon">❌</p>
+          <div class="main-pic main-pic2">
+            <iconify-icon icon="material-symbols:arrow-right"></iconify-icon>
+            <iconify-icon icon="material-symbols:arrow-left"></iconify-icon>
+            <img src="images/image-product-1.jpg" alt="product-pic" />
+          </div>
+          <div class="single-pic">
+            <span class="selected-pic-border">
+              <img
+                class="selected-pic"
+                src="images/image-product-1-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+            <span>
+              <img
+                src="images/image-product-2-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+            <span>
+              <img
+                src="images/image-product-3-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+            <span>
+              <img
+                src="images/image-product-4-thumbnail.jpg"
+                alt="product-pic"
+              />
+            </span>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <div class="overlay"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
